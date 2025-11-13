@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.container {
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    outline: 1px solid red;
+}
+
+.child1 {
+    background: grey;
+    z-index: 1;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 19px 20px 22px 20px;
+    height:110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: fit-content;
+}
+
+.child1 button {
+    padding: 10px 13px 7px 13px;
+    z-index: 1;
+    border-radius: 10px;
+    outline: 1px solid white;
+    border: 1px solid white;
+}
+
+.child {
+    border: 1px solid white;
+    z-index: 1;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    height:110px;
+    width: 270px;
+    margin: 20px 4px 2px 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.child button {
+    padding: 10px 13px 7px 13px;
+    /* z-index: 1; */
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    outline: 1px solid white;
+    border: 1px solid white;
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.mother {
+    background: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    outline: 1px solid white;
+    border: 1px solid black;
+}
